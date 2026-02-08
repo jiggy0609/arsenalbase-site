@@ -1,0 +1,22 @@
+body {
+  font-family: sans-serif;
+  margin: 20px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+/* レア度ごとの色 */
+.rarity-C  { color: #555; }
+.rarity-R  { color: #1e90ff; }
+.rarity-M  { color: #2ecc71; }
+.rarity-P  { color: #9b59b6; }
+.rarity-SEC{ color: #e74c3c; font-weight: bold; }
